@@ -1,0 +1,79 @@
+.flickerplate {
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#e6e6e6;
+	overflow:hidden
+}
+.flickerplate ul.flicks {
+	width:10000%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	list-style:none
+}
+.flickerplate ul .img{ width:100%; height:100%; position:relative;}
+.flickerplate ul.flicks>li {
+	float:left;
+	width:1%;
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	display:table
+}
+
+
+.flickerplate .dot-navigation {
+	position:absolute;
+	bottom:15px;
+	width:100%;
+	text-align:center;
+	z-index:100
+}
+.flickerplate .dot-navigation ul {
+	text-align:center;
+	list-style:none;
+	padding:0px 15px
+}
+.flickerplate .dot-navigation ul li {
+	display:inline-block;
+	float:none
+}
+.flickerplate .dot-navigation .dot {
+	width:58px;
+	height:2px;
+	margin:0px 6px;
+	background-color:rgba(255, 255, 255, 0.3);
+	-webkit-transition:background-color 0.2s ease-out;
+	-moz-transition:background-color 0.2s ease-out;
+	-o-transition:background-color 0.2s ease-out;
+	-ms-transition:background-color 0.2s ease-out;
+	transition:background-color 0.2s ease-out
+}
+.flickerplate .dot-navigation .dot:hover {
+	cursor:pointer;
+	background-color:rgba(255, 255, 255, 0.6)
+}
+.flickerplate .dot-navigation .dot.active {
+	background-color:#fff
+}
+
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner {
+	color:rgba(0, 0, 0, 0.9)
+}
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-sub-text {
+	color:rgba(0, 0, 0, 0.9)
+}
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-title span.flick-block-text, .flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-sub-text span.flick-block-text {
+	background-color:rgba(255, 255, 255, 0.5)
+}
+
+.flickerplate.animate-transition-slide ul.flicks {
+	position:relative;
+	left:0%;
+	-webkit-transition:left 0.4s ease-out;
+	-moz-transition:left 0.4s ease-out;
+	-o-transition:left 0.4s ease-out;
+	-ms-transition:left 0.4s ease-out;
+	transition:left 0.4s ease-out
+}

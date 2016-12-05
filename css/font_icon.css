@@ -16,6 +16,16 @@ url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
   url('../fonts/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
 }
 
+
+/*@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_gxk7unxmngue4s4i.eot');
+  src: url('http://at.alicdn.com/t/font_gxk7unxmngue4s4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_gxk7unxmngue4s4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_gxk7unxmngue4s4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_gxk7unxmngue4s4i.svg#iconfont') format('svg');
+}*/
+
 .web-font {
   font-family:"webfont" !important;
 
